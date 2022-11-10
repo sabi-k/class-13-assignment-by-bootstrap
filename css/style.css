@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(../images/pexels-eberhard-grossgasteiger-534164.jpg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding-top: 15px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color:rgb(125, 239, 125);
+}
+.btn-custom{
+    color:#fff;
+    border-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-custom:hover{
+    background-color:rgb(148, 236, 148);
+}
+.row-2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.get_start{
+    padding: 30px;
+
+}
+.get_start h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.get_start h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 120px;
+
+}
+.get_start p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color:#fff;
+
+}
+.get_start button{
+    color:rgb(73, 69, 69);
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 107, 107);
+    transition: .5s;
+    cursor: pointer;
+}
+.get_start button a{
+    text-decoration: none;
+    color:rgb(73, 69, 69);
+
+}
+.get_start button:hover{
+    background-color: rgb(248, 197, 67);
+}
+.gallery{
+    padding-bottom: 40px;
+    
+}
+.heading-1{
+
+}
+.heading-1 h1{
+    color:#536942;
+    line-height: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60px;
+
+
+}
+.heading-1 span{
+    width: 30%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    background:#FFD936;
+    margin-bottom: 20px;
+
+}
+.glry-part{
+
+}
+.gl-img img{
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+.glry-part h4{
+    color:#536942;
+    font-family: 'Roboto', sans-serif;
+
+}
+.glry-part p{
+    color:#536942;
+    font-family: 'Roboto', sans-serif;
+}
+.testimonial{
+    background-color: #F6F8F5;
+
+}
+.openion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.test-img img{
+    height: 60px;
+    margin-bottom: 20px;
+
+}
+.test-1 h2{
+    color:#536942;
+    margin-bottom: 40px;
+
+}
+.test-1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#A4B7C0;
+
+}
+.contein-wraper{
+
+}
+.about-us a{
+    text-decoration: none;
+    color:#A4B7C0;
+
+}
+.about-us h1{
+    font-family: 'Roboto', sans-serif;
+    color:#536942;
+    margin-top: 20px;
+
+}
+.about-us p{
+    font-family: 'Roboto', sans-serif;
+    color:#536942;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.btn-find{
+    border: 1px solid #61686c;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .7s;
+    color:#5f686c;
+    cursor: pointer;
+}
+.btn-find:hover{
+    border: 1px solid yellowgreen;
+    color: yellowgreen;
+}
+.ques-sect{
+    background-image: url(../images/pexels-pixabay-417173.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.question-1{
+    margin-top:70px;
+}
+.question-1 h1{
+    font-family: 'Roboto', sans-serif;
+    color:#597642;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.question-1 p{
+    font-family: 'Roboto', sans-serif;
+    color:#62804b;
+    margin-bottom: 40px;
+
+
+}
+.question-1 button{
+    border: 1px solid yellow;
+    padding: 10px 35px;
+    background-color: rgb(227, 227, 33);
+    border-radius: 5px;
+    transition: .7s;
+    color:#5f686c;
+    cursor: pointer;
+}
+.question-1 button:hover{
+    background-color: #967d0b;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Roboto', sans-serif;
+    color:#62804b;
+    font-size: 16px;
+
+
+}
+.foot-sect{
+    text-align: center;
+}
+.foot-sect img{
+    height: 50px;
+}
+.foot-p{
+    text-align: end;
+    margin-top: 15px;
+}
+.foot-p p{
+    font-family: 'Roboto', sans-serif;
+    color:#62804b;
+
+}
